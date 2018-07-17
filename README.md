@@ -1,6 +1,9 @@
 # vue-element-ul-cart
 > 这是一个vue购物车的例子，用到了element-ul，vuex
 
+## Build Setup
+
+``` bash
 # install dependencies
 npm install
 
