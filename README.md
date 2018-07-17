@@ -1,7 +1,7 @@
 # vue-element-ul-cart
 > 这是一个vue购物车的例子，用到了element-ul，vuex
 
-![avatar](/assets/ScreenGif.gif)
+![avatar](/assets/ScreenGif.gif) 
 
 ## Build Setup
 
