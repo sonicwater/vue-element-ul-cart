@@ -42,12 +42,6 @@ export default {
 			this.clearAllCart();
         	this.dialogVisible = false;
       	}
-    },
-    created(){
-        
-    },
-    mounted(){
-        // console.log(this.totalPrice)
     }
 }
 </script>

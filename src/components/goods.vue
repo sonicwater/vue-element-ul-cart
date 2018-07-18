@@ -6,7 +6,6 @@
 	    <el-table-column label="操作">
 	    	<template slot-scope="scope">
 		        <el-button size="mini" type="primary" icon="el-icon-plus" @click="addToCart( scope.row )">加入购物车</el-button>
-	    		
 		    </template>
 	    </el-table-column>
 	</el-table>
@@ -14,14 +13,8 @@
 
 <script>
 import { mapState, mapGetters, mapActions } from 'vuex'
-
 export default {
-	name: 'goods',
-  	data() {
-		return {
-			
-		}
-	},
+	name: 'goods'
 	computed:{
 		...mapGetters([
 			'goodList','totalNum'
@@ -29,12 +22,6 @@ export default {
 	},
 	methods: {
 		...mapActions(['addToCart'])
-    },
-    created(){
-        
-    },
-    mounted(){
-        // console.log(this.totalPrice)
     }
 }
 </script>

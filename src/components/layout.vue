@@ -50,12 +50,6 @@ export default {
 	},
 	methods: {
 		...mapActions(['addToCart'])
-    },
-    created(){
-        
-    },
-    mounted(){
-        // console.log(this.totalPrice)
     }
 }
 </script>

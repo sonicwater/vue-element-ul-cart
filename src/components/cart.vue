@@ -68,12 +68,6 @@ export default {
         	data.value = this.input_number_value;
         	this.numChange( data );
       	}
-    },
-    created(){
-        
-    },
-    mounted(){
-    	
     }
 }
 </script>
